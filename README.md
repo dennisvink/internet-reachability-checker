@@ -7,6 +7,8 @@ This script sends a ping request to several well-known IP addresses of DNS provi
 You can run this script in the background on a modern Ubuntu distro with the following steps:
 
 ```
+git clone https://github.com/dennisvink/internet-reachability-checker.git
+cd internet-reachability-checker
 sudo cp check_internet.sh /usr/local/bin/
 sudo chmod 755 /usr/local/bin/check_internet.sh
 sudo cp check_internet.service /etc/systemd/system/ 
